@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	padding: 0;
+    display: block;
+    background: url("images/images.png") no-repeat center center/cover;
+}
+.div-first-box {
+	height: 400px;
+	width: 50%;
+	padding: 10px 20%;
+	margin: 50px 5%;
+	border: solid 2px black;
+}
+
+#div-innerfirst-box-for-inline {
+	height: 80%;
+	width: 100%;
+	padding: 1% 10%;
+	display: block;
+}
+
+.h1-add-space-to-left {
+	margin-left: 150px;
+}
+
+h1 {
+	border: solid 2px black;
+	font-size: 100px;
+	padding: 20px 50px;
+}
+
+ul {
+	list-style-type: none;
+	display: inline;
+}
+
+li {
+	display: inline;
+	float: left;
+}
+
+.btn-style{
+	padding: 5px 20px;
+	width: 170px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 70px;
+}
+
+#btn-show{
+	margin-left: 120px;
+}
+
+
+
+
+
+.div-second-box{
+	width: 100%;
+	padding: 50px 0%;
+	height: auto;
+	border-top: solid 1px black;
+}
+
+table {
+	text-align: center;
+	line-height: 30px;
+	width: 80%;
+	margin: auto;
+	padding-right: 110px;
+	font-size: 25px;
+}

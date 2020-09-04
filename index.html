@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dice Generator App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+	<div class="div-first-box">
+		<div id="div-innerfirst-box-for-inline">
+			<div id="div-numbers">
+				<ul>
+					<li><h1 id="dice1">1</h1></li>
+					
+					<li><h1 id="dice2" class="h1-add-space-to-left">1</h1></li>
+				</ul>
+			</div>
+			<br>
+		</div>
+		<div id="div-buttons">
+				
+				<button onclick="btnThrow()" class="btn-style">Throw</button>
+				<button onclick="btnShow()" id="btn-show" class="btn-style">Show</button>
+		</div>
+	</div>
+	<div class="div-second-box">
+		<table id="tableName">
+			<thead>
+				<th>Throw</th>
+				<th>Show</th>
+			</thead>
+			<tbody id="tableBody">
+				
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>
